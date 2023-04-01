@@ -1,0 +1,16 @@
+﻿{
+  "name": "Replit Bounties",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Replit Bounties",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Bounties!",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "32": "replit_logo.png"
+    }
+  }
+}
